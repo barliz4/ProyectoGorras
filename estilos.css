@@ -1,0 +1,78 @@
+* {/*Se modifica el titulo de la página*/
+    padding: 1px;
+    box-sizing: border-box;
+  }
+
+  h1 {                                  /* Se edita el titulo de la página*/
+    color: rgb(255, 255, 255);              /* Color del titulo */
+    font-size: 72px;                    /* Tamaño del texto */
+    font-family: 'Merriweather', serif; /* Estilo de letra Urbano */
+ }
+  
+p{                                      /*Texto de la página*/
+    font-family: 'Merriweather', serif; /* Estilo de letra Urbano */
+    color: rgb(255, 255, 255);        /* Color del texto */
+    font-size: 26px;                    /* Tamaño del texto */
+    text-align: center;                 /* Centra el texto */
+  }
+  
+  body {
+    background-image: url('Imagenes/Fondo4.jpg');   /* Cambia la ruta por la ubicación de tu imagen */
+    background-attachment: fixed;                   /* Imagen fija */
+    background-position: center;                    /* Centrar la imagen */
+    background-size: cover;                         /* Ajusta la imagen a toda la pantalla (Importante) */
+}
+
+.Logo_de_la_página {
+    width: 200px;
+
+}
+
+.Logo {
+    height: 156px;
+    
+}
+.Apartado_Superior {
+    background-color: rgba(0, 0, 0, 0.367);
+    height: 160px;
+    width: auto;
+}
+
+.Contenedor_1{
+    width: 100%;                                        /* Ancho del contenedor */
+    grid-template-columns: 3fr 3fr 3fr;                 /* Columnas de 3 unidades (Definir Columnas) */
+    display: grid;                                      /*  */
+    gap: 0px;    
+}
+
+.Contenedor_2{                                          /* Estilos para el contenedor del titulo */
+    width: 100px;                                       
+    margin-right: 0px;
+    margin-left: 220px;
+}
+
+.Modificar_Botones{
+    text-align: right;
+    
+
+}
+
+.Modificar_Botones li{
+    text-align: right;
+    display: inline-block;
+    padding: 0px 10px;                                  /* Espacios entre los botones */
+    font-size: 35px;
+    margin-top: 30px;                                   /* Margen de la barra y el texto */
+}
+
+.Modificar_Botones li a {
+    text-decoration: none; 
+    text-decoration: underline none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Merriweather', serif;                /* Estilo de letra Urbano */
+
+}
+
+
+
