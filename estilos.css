@@ -1,78 +1,76 @@
-* {/*Se modifica el titulo de la página*/
-    padding: 1px;
-    box-sizing: border-box;
-  }
+    * {/*Se modifica el titulo de la página*/
+        padding: 1px;
+        box-sizing: border-box;
+    }
 
-  h1 {                                  /* Se edita el titulo de la página*/
-    color: rgb(255, 255, 255);              /* Color del titulo */
-    font-size: 72px;                    /* Tamaño del texto */
-    font-family: 'Merriweather', serif; /* Estilo de letra Urbano */
- }
-  
-p{                                      /*Texto de la página*/
-    font-family: 'Merriweather', serif; /* Estilo de letra Urbano */
-    color: rgb(255, 255, 255);        /* Color del texto */
-    font-size: 26px;                    /* Tamaño del texto */
-    text-align: center;                 /* Centra el texto */
-  }
-  
-  body {
-    background-image: url('Imagenes/Fondo4.jpg');   /* Cambia la ruta por la ubicación de tu imagen */
-    background-attachment: fixed;                   /* Imagen fija */
-    background-position: center;                    /* Centrar la imagen */
-    background-size: cover;                         /* Ajusta la imagen a toda la pantalla (Importante) */
-}
-
-.Logo_de_la_página {
-    width: 200px;
-
-}
-
-.Logo {
-    height: 156px;
+    h1 {                                  /* Se edita el titulo de la página*/
+        color: rgb(255, 255, 255);              /* Color del titulo */
+        font-size: 72px;                    /* Tamaño del texto */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /* Estilo de letra */
+    }
     
-}
-.Apartado_Superior {
-    background-color: rgba(0, 0, 0, 0.367);
-    height: 160px;
-    width: auto;
-}
-
-.Contenedor_1{
-    width: 100%;                                        /* Ancho del contenedor */
-    grid-template-columns: 3fr 3fr 3fr;                 /* Columnas de 3 unidades (Definir Columnas) */
-    display: grid;                                      /*  */
-    gap: 0px;    
-}
-
-.Contenedor_2{                                          /* Estilos para el contenedor del titulo */
-    width: 100px;                                       
-    margin-right: 0px;
-    margin-left: 220px;
-}
-
-.Modificar_Botones{
-    text-align: right;
+    p{                                      /*Texto de la página*/
+        font-family: 'Merriweather', serif; /* Estilo de letra Urbano */
+        color: rgb(255, 255, 255);        /* Color del texto */
+        font-size: 26px;                    /* Tamaño del texto */
+        text-align: center;                 /* Centra el texto */
+    }
     
+    body {
+        background-image: url('Imagenes/CapLogo.jpg');   /* Cambia la ruta por la ubicación de tu imagen */
+        background-attachment: fixed;                   /* Imagen fija */
+        background-position: center;                    /* Centrar la imagen */
+        background-size: cover;                         /* Ajusta la imagen a toda la pantalla (Importante) */
+    }
 
-}
+    .Logo_de_la_página {
+        width: 200px;
 
-.Modificar_Botones li{
-    text-align: right;
-    display: inline-block;
-    padding: 0px 10px;                                  /* Espacios entre los botones */
-    font-size: 35px;
-    margin-top: 30px;                                   /* Margen de la barra y el texto */
-}
+    }
 
-.Modificar_Botones li a {
-    text-decoration: none; 
-    text-decoration: underline none;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    font-family: 'Merriweather', serif;                /* Estilo de letra Urbano */
+    .Logo {
+        height: 156px;              /*Desde acá el tamaño de la imagen (Logo principal)*/
+        
+    }
+    .Apartado_Superior {
+        background-color: rgba(0, 0, 0, 0.26);  /*Se edita el color de la barra de navegación*/
+        height: 160px;                            /*Se cambia el tamaño de la barra de navegación*/
+        width: auto;                             /*Se modifica la posición del titulo y de (Contactos, menú y buscar)*/
+    }
 
-}
+    .Contenedor_1{
+        width: 100%;                                        /* Ancho del contenedor */
+        grid-template-columns: 3fr 3fr 3fr;                 /* Columnas de 3 unidades (Definir Columnas) Centa la posición de titulo,contacto, menú y buscar */
+        display: grid;                                      /* Mantiene la informacion dentro de los contenedores */
+        gap: 0px;    
+    }
+
+    .Contenedor_2{                                          /* Estilos para el contenedor del titulo */
+        width: 100px;                                       /*Esta propiedad define el ancho de un*/
+        margin-right: 0px;                                  /*Define el ancho, de contenedor 2*/
+        margin-left: 220px;                                 /*Espacio externo margen*/
+    }
+
+    .Modificar_Botones{
+        text-align: right;                                  /*Se ajustan los botones hacia la derecha (Contactos, menú y buscar)*/
+        
+
+    }
+
+    .Modificar_Botones li{
+        display: inline-block;                               /*Se usa para cambiar la forma de un elemento*/
+        padding: 0px 10px;                                   /* Espacios entre los botones */
+        font-size: 35px;                                     /*Centa en pixeles (Contactos, menú y buscar)*/
+        margin-top: 30px;                                    /* Margen de la barra y el texto */
+    }
+
+    .Modificar_Botones li a {
+        text-decoration: underline none;                    /* Decoracion para (Contactos, menú y buscar) subrayado */
+        color: rgb(255, 255, 255);                        /* Color para (Contactos, menú y buscar)*/
+        font-size: 35px;                                    /* Tamaño para (Contactos, menú y buscar)*/
+        font-family: 'Merriweather', serif;                 /* Estilo de letra Urbano */
+
+    }
 
 
 
