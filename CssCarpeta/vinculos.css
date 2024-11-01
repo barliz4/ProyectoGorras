@@ -1,0 +1,58 @@
+*{
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(0, 0, 0);              /* Color del titulo */
+    text-align: left;                 /*Se posiciona el texto hacia la derecha*/
+    font-size: 40px;                    /* Tamaño del texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Estilo de letra */
+}
+
+body {
+    background-image: url(../Imagenes/Birdcaps.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;                         /* Ajusta la imagen a toda la pantalla (Importante) */
+    
+}
+
+.Container2 {
+    color: black;                   /* Color de la letra */
+    text-align:left;               /*Se posiciona el texto hacia la izquierda*/
+    text-decoration: solid;
+    font-size: 21px;                  /* Tamaño del texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   /* Estilo de letra */
+}
+
+.boton-1 {                                    /*Boton de instagram*/
+    color: black;                   /* Color de la letra */
+    text-align:left;               /*Se posiciona el texto hacia la izquiera*/
+    text-decoration: solid;
+    font-size: 21px;                  /* Tamaño del texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   /* Estilo de letra */
+}
+
+.contenedorboton{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    grid-auto-flow: column; /* Alinea los botones en fila */
+}
+
+.botonesG {                                       /*Botones, estilos, letras y colores*/ 
+    color: rgb(255, 255, 255);                   /* Color de la letra */
+    font-size: 18px;                               /* Tamaño del texto */
+    font-family:Arial, Helvetica, sans-serif;      /* Estilo de letra */
+    border-radius: 5px;                                         /*Redondea las esquinas*/
+    padding: 10px 40px;                                         /*Alto y ancho del boton*/
+    background-color: rgba(0, 167, 36, 0.168);
+    box-shadow: 0px 0px 3px rgba(217, 226, 222, 0.82);        /*Sombra del boton*/
+    transition: 0.3s;                                           /*Transicion*/
+    text-decoration: underline;                                 /* Aplica el subrayado */
+    text-decoration-color: rgb(0, 0, 0);             /* Cambia el color de la línea */
+    /*margin: 0 auto;*/ 
+}
+

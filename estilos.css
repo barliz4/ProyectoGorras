@@ -3,101 +3,111 @@
         box-sizing: border-box;
     }
 
-    h1 {                                  /* Se edita el titulo de la página*/
-        color: rgb(255, 255, 255);              /* Color del titulo */
-        font-size: 45px;                    /* Tamaño del texto */
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Estilo de letra */
+    h1 {                                                                         /* Se edita el titulo de la página*/
+        color: rgba(255, 255, 255, 0.903);                                             /* Color del titulo */
+        font-size: 45px;                                                         /* Tamaño del texto */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            /* Estilo de letra */
+        text-align:center;
+
     }
     
-    p{                                      /*Texto de la página*/
-        font-family: 'Merriweather', serif; /* Estilo de letra Urbano */
-        color: rgb(255, 255, 255);        /* Color del texto */
-        font-size: 23px;                    /* Tamaño del texto */
-        text-align: center;                 /* Centra el texto */
+    p{                                                        /*Texto de la página*/
+        font-family: 'Merriweather', serif;                   /* Estilo de letra Urbano */
+        color: rgb(1, 255, 77);                          /* Color del texto */
+        font-size: 23px;                                      /* Tamaño del texto */
+        text-align: center;                                   /* Centra el texto */
     }
     
-    body {
-        background-image: url('Imagenes/CapLogo.jpg');   /* Cambia la ruta por la ubicación de la imagen */
-        background-attachment: fixed;                   /* Imagen fija */
-        background-position: center;                    /* Centrar la imagen */
-        background-size: cover;                         /* Ajusta la imagen a toda la pantalla (Importante) */
+    body {                                                       /*Cuerpo página principal*/
+        background-image: url('Imagenes/CapLogo.jpg');           /* Cambia la ruta por la ubicación de la imagen */
+        background-attachment: fixed;                           /* Imagen fija */
+        background-position: center;                            /* Centrar la imagen */
+        background-size: cover;                                      /* Ajusta la imagen a toda la pantalla (Importante) */
+        /* font-size: 65px;                                        /*De momento, cambia el espacio en vertical entre las imagenes y el texto (Lorem)*/
+        
     }
 
-    .Logo_de_la_página {
-        width: 100px;   
-
+    .Logo_de_la_página {                                    /*Logo de la pagina apartado superior derecho*/
+    width: 100px;
     }  
 
     .Logo {
-        height: 118px;              /*Desde acá el tamaño de la imagen (Logo principal)*/
-        
+        height: 116px;              /*Desde acá el tamaño de la imagen (Logo principal)*/       
     }
     .Apartado_Superior {
-        background-color: rgba(10, 92, 7, 0.103);  /*Se edita el color de la barra de navegación*/
+        background-color: rgba(3, 92, 22, 0.274);  /*Se edita el color de la barra de navegación*/
         height: 120px;                            /*Se cambia el tamaño de la barra de navegación*/
-        width: auto;                             /*Se modifica la posición del titulo y de (Contactos, menú y buscar)*/
-        text-align: center;                     /*SE CENTRA EL TITULO DE LA PAGINA PRINCIPAL*/        
+        /*width:auto;                             /*Se modifica la posición del titulo y de (Contactos, menú y buscar)*/
+        /* text-align: center;                             /*SE CENTRA EL TITULO DE LA PAGINA PRINCIPAL*/      
+        /*overflow:auto;                                  /* Se ocultan los elementos que sobrepasan el área de visualización */
+        /* position: fixed;                                   /* Se mueve la barra de navegación al principio de la página */
+        /*top: 0px;                                         /* Posición superior de la barra de navegación */
     }
 
-    .Contenedor_1{ 
-        display: flex;
+    /*.Contenedor_1{ 
+        display: flex;    
         width: 100%;                                        /* Ancho del contenedor */
-        grid-template-columns: 3fr 3fr 3fr;                 /* Columnas de 3 unidades (Definir Columnas) Centa la posición de titulo,contacto, menú y buscar */
-        display: grid;                                      /* Mantiene la informacion dentro de los contenedores */
-        gap: 0px;    
-    } 
+        /* grid-template-columns: 3fr 3fr 3fr;                 /* Columnas de 3 unidades (Definir Columnas) Centa la posición de titulo,contacto, menú y buscar */
+        /* display: grid;                                      /* Mantiene la informacion dentro de los contenedores */
+    /* gap: 0px;    
+    } */ 
 
-    .TituloBird {
+    .TituloBird {                                           /*Titulo de la página principal BirdCaps*/
         font-size: 45px;                                    /* Tamaño del texto para el título de la página */
-        color: rgb(255, 255, 255);                            /* Color del texto para el título de la página */                                /* Espacio entre el título y el contenido */
+        color: rgb(255, 255, 255);                            /* Color del texto para el título de la página */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;                 /* Estilo de letra Urbano */
+        /* margin-left: 500px;                                 /* Espacio externo margen*/                        
     }
     
 
     .Contenedor_2{                                           /* Estilos para el contenedor del titulo */
-        width: 320px;                                       /*Esta propiedad define el ancho de un */
-        margin-right: 0px;                                  /*Define el ancho, de contenedor 2*/
-        margin-left: 40px;                                 /*Espacio externo margen*/
-        }
-
-    .Contenedor_3{
-        text-align: right;
-        font-family: 'Merriweather', serif;                 /* Estilo de letra Urbano */
-        /* background-color: rgb(255, 0, 0);  /*Se edita el color del botón*/
+    /*. width: 620px;                                       /*Esta propiedad define el ancho de un contenedor*/
+    /*.  margin-right: 0px;                                  /*Define el ancho, de contenedor 2*/
+    margin-left: 0px;                                 /*Espacio externo margen*/
     }
 
-    .Modificar_Botones{
-        text-align: right;                                  /*Se ajustan los botones hacia la derecha (Contactos, menú y buscar)*/   
-     }
+    /*.Contenedor_3{
+        /* text-align:right */
+        /*  font-family: 'Merriweather', serif;                 /* Estilo de letra Urbano */
+        /* background-color: rgb(255, 0, 0);  /*Se edita el color del botón
+    } */
+
+    .Modificar_Botones{                                   /*Botones Contactos,Menú, Buscar*/
+    text-align:right;                                  /*Se ajustan los botones hacia la derecha (Contactos, menú y buscar)*/                                /*Quita los puntos por defecto que aparecen en los botones*/
+    margin-top: 4px;                                    /* Margen de la barra y el texto */
+    margin-bottom: 4px;                                   /* Margen de la barra y el texto */
+    padding: 0px;                                     /* Espacios entre los botones */
+    font-size: 0px;                                     /* Centra en pixeles (Contactos, menú y buscar) */
+    }
 
     .Modificar_Botones li{
-        display: inline-block;                               /*Se usa para cambiar la forma de un elemento*/
+        
+        display:inline-table;                               /*Se usa para cambiar la forma de un elemento*/
         padding: 0px 10px;                                   /* Espacios entre los botones */
-        font-size: 35px;                                     /*Centra en pixeles (Contactos, menú y buscar)*/
-        margin-top: 30px;                                    /* Margen de la barra y el texto */
+        /* font-size: 0px;                                     /*Centra en pixeles (Contactos, menú y buscar)*/
+       /* margin-top: 4px;                                    /* Margen de la barra y el texto */
     }
 
     .Modificar_Botones li a {
         text-decoration: underline none;                    /* Decoracion para (Contactos, menú y buscar) subrayado */
-        color: rgb(255, 255, 255);                        /* Color para (Contactos, menú y buscar)*/
+        color: rgb(5, 60, 23);                        /* Color para (Contactos, menú y buscar)*/
         font-size: 35px;                                    /* Tamaño para (Contactos, menú y buscar)*/
         font-family: 'Merriweather', serif;                 /* Estilo de letra Urbano */
-
     }
 
-    .gorra_1 {
+    /* .gorra_1 {
         width: auto;                                       /* Ancho del contenedor */
-        height: 250px;                                       /* Alto del contenedor */
-       /* background-image: url('Imagenes/Gorra_1.jpg');       Cambia la ruta por la ubicación de la imagen */
+        /*  height: 250px;                                       /* Alto del contenedor */
+        /* background-image: url('Imagenes/Gorra_1.jpg');       Cambia la ruta por la ubicación de la imagen */
         /*display: flex;                                          Mantiene la informacion dentro de los contenedores */
-        justify-content: center;                               /* Centra el texto en el centro del contenedor */
-    }
+        /*  justify-content: center;                               /* Centra el texto en el centro del contenedor 
+    }   */
 
     .Fotos {
         display: flex;                                       /* Mantiene la informacion dentro de los contenedores */
         justify-content: center;    
-        gap: 20px;                                          /* Espacio entre las fotos */
-        margin-top: 100px;                                    /* Margen de la barra y el texto */      
-        background-position: center;                                                          
+        gap: 130px;                                          /* Espacio entre las fotos */
+        margin-top: 0px;                                    /* Margen de la barra y el texto */                                                              
     }
 
     .FotosInicio {
@@ -105,7 +115,7 @@
         margin: 0 5px;
         height: 120px;
         background-image: url('Imagenes/Foto_1.jpg');       /* Cambia la ruta por la ubicación de la imagen */
-        background-size: cover;                                /* Ajusta la imagen a toda la pantalla (Importante) */
+        /*background-size: cover;                                /* Ajusta la imagen a toda la pantalla (Importante) */
         border-radius: 70px;                                  /* Redondea la imagen */
     }
 

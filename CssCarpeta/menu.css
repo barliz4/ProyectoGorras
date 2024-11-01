@@ -1,0 +1,45 @@
+*{
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;                                                /*Tamaño del titulo*/
+    font-family: 'Poppins', sans-serif;                             /*Estilo de letra del titulo*/
+    background-color: rgb(22, 47, 19);                               /*Color de la barra*/
+    padding: 14px;                                                  /*Tamaño de la barra (Menu principal)*/
+    border-radius: 10px;                                            /*Redondea las esquinas de la barra*/
+    box-shadow: 0 4px 100px 180px rgba(65, 144, 0, 0.74);                /*Color para la barra, especificamente sombras*/
+    
+}
+
+body{
+    text-align:center;                                          /*Centra el texto*/
+    font-size: 29px;                                            /*Tamaño del texto*/
+    background-color: rgb(40, 34, 34);           /*Color de fondo*/
+    color: rgba(187, 234, 206, 0.904);                                         /*Color del texto*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedorboton{                                           /*Contenedor de botones (Posicion de botones)*/
+    display: flex;
+    justify-content:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    grid-auto-flow: column; /* Alinea los botones en fila */
+    
+}
+
+.botonesG {
+    color: rgb(255, 255, 255);
+    font-size: 18px;                                /*Tamaño de los botones*/
+    border-radius: 5px;                             /*Redondea las esquinas*/
+    padding: 10px 40px;                                 /*Alto y ancho del boton*/
+    background-color: rgba(0, 255, 55, 0.404);               /*Color interno del boton*/
+    box-shadow: 0px 0px 3px rgb(0, 255, 55);        /*Sombra del boton*/
+    /*margin: 2px 16px;*/ 
+    transition: 0.3s;                                   /*Transicion*/
+    text-decoration: underline;                         /* Aplica el subrayado */
+    text-decoration-color: rgb(0, 0, 0);             /* Cambia el color de la línea */
+}
